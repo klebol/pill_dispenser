@@ -1,0 +1,858 @@
+Archive member included because of file (symbol)
+
+c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_udivmodqi4.o)
+                              ./PCF8563.o (__udivmodqi4)
+c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_udivmodhi4.o)
+                              ./PCF8563.o (__udivmodhi4)
+c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_divmodhi4.o)
+                              ./pill_dispenser.o (__divmodhi4)
+c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_exit.o)
+                              c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm328p.o (exit)
+c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_copy_data.o)
+                              ./lcd.o (__do_copy_data)
+c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_clear_bss.o)
+                              ./PCF8563.o (__do_clear_bss)
+c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(itoa.o)
+                              ./lcd.o (itoa)
+c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(itoa_ncheck.o)
+                              c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(itoa.o) (__itoa_ncheck)
+c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(utoa_ncheck.o)
+                              c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(itoa_ncheck.o) (__utoa_common)
+c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(strrev.o)
+                              c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(utoa_ncheck.o) (strrev)
+
+Allocating common symbols
+Common symbol       size              file
+
+T2                  0x1               ./StepperMotor.o
+I2C_ErrorCode       0x1               ./TWI.o
+dosage_mode         0x1               ./main.o
+switch_push         0x1               ./StepperMotor.o
+all_doses           0x1               ./main.o
+T_second            0x1               ./StepperMotor.o
+PCF_error           0x1               ./PCF8563.o
+Dose_times          0x70              ./main.o
+its_dosetime_flag   0x1               ./main.o
+new_time            0xa               ./PCF8563.o
+step_pos            0x2               ./StepperMotor.o
+T3                  0x1               ./StepperMotor.o
+live_time           0xa               ./PCF8563.o
+T1                  0x1               ./StepperMotor.o
+default_time        0xa               ./PCF8563.o
+pushed_key          0x1               ./StepperMotor.o
+latest_minute       0x1               ./main.o
+day                 0x1               ./main.o
+step_unlock         0x1               ./StepperMotor.o
+step_pos_fu         0x2               ./StepperMotor.o
+dose_numb           0x7               ./main.o
+minute_flag         0x1               ./main.o
+next_dose           0x2               ./main.o
+second_flag         0x1               ./StepperMotor.o
+doses_definied      0x1               ./main.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+user_signatures  0x00850000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm328p.o
+LOAD ./PCF8563.o
+LOAD ./StepperMotor.o
+LOAD ./TWI.o
+LOAD ./font.o
+LOAD ./hardware_layer.o
+LOAD ./lcd.o
+LOAD ./main.o
+LOAD ./pill_dispenser.o
+LOAD ./servo9g.o
+START GROUP
+LOAD c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a
+LOAD c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libm.a
+LOAD c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a
+END GROUP
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x265c
+ *(.vectors)
+ .vectors       0x00000000       0x68 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm328p.o
+                0x00000000                __vector_default
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+                0x00000068                . = ALIGN (0x2)
+                0x00000068                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000068        0x0 linker stubs
+ *(.trampolines*)
+                0x00000068                __trampolines_end = .
+ *(.progmem*)
+ .progmem.data.special_char
+                0x00000068       0x18 ./font.o
+                0x00000068                special_char
+ .progmem.data.ssd1306oled_font
+                0x00000080      0x27c ./font.o
+                0x00000080                ssd1306oled_font
+ .progmem.data.init_sequence
+                0x000002fc       0x1b ./lcd.o
+                0x000002fc                init_sequence
+ .progmem.data.days_names
+                0x00000317       0x3f ./pill_dispenser.o
+                0x00000317                days_names
+                0x00000356                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000356                __ctors_start = .
+ *(.ctors)
+                0x00000356                __ctors_end = .
+                0x00000356                __dtors_start = .
+ *(.dtors)
+                0x00000356                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000356        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm328p.o
+                0x00000356                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000356        0xc c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm328p.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000362       0x16 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_copy_data.o)
+                0x00000362                __do_copy_data
+ .init4         0x00000378       0x10 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_clear_bss.o)
+                0x00000378                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000388        0x8 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm328p.o
+ *(.init9)
+ *(.text)
+ .text          0x00000390        0x4 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm328p.o
+                0x00000390                __vector_22
+                0x00000390                __vector_1
+                0x00000390                __vector_24
+                0x00000390                __vector_12
+                0x00000390                __bad_interrupt
+                0x00000390                __vector_6
+                0x00000390                __vector_3
+                0x00000390                __vector_23
+                0x00000390                __vector_25
+                0x00000390                __vector_11
+                0x00000390                __vector_13
+                0x00000390                __vector_17
+                0x00000390                __vector_19
+                0x00000390                __vector_7
+                0x00000390                __vector_5
+                0x00000390                __vector_4
+                0x00000390                __vector_9
+                0x00000390                __vector_2
+                0x00000390                __vector_21
+                0x00000390                __vector_15
+                0x00000390                __vector_8
+                0x00000390                __vector_10
+                0x00000390                __vector_16
+                0x00000390                __vector_18
+                0x00000390                __vector_20
+ .text          0x00000394        0x0 ./PCF8563.o
+ .text          0x00000394        0x0 ./StepperMotor.o
+ .text          0x00000394        0x0 ./TWI.o
+ .text          0x00000394        0x0 ./font.o
+ .text          0x00000394        0x0 ./hardware_layer.o
+ .text          0x00000394        0x0 ./lcd.o
+ .text          0x00000394        0x0 ./main.o
+ .text          0x00000394        0x0 ./pill_dispenser.o
+ .text          0x00000394        0x0 ./servo9g.o
+ .text          0x00000394        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_udivmodqi4.o)
+ .text          0x00000394        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_udivmodhi4.o)
+ .text          0x00000394        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_divmodhi4.o)
+ .text          0x00000394        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_exit.o)
+ .text          0x00000394        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_copy_data.o)
+ .text          0x00000394        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_clear_bss.o)
+ .text          0x00000394        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(itoa.o)
+ .text          0x00000394        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(itoa_ncheck.o)
+ .text          0x00000394        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(utoa_ncheck.o)
+ .text          0x00000394        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(strrev.o)
+                0x00000394                . = ALIGN (0x2)
+ *(.text.*)
+ .text.rtc_write
+                0x00000394       0x38 ./PCF8563.o
+                0x00000394                rtc_write
+ .text.rtc_read
+                0x000003cc       0x72 ./PCF8563.o
+                0x000003cc                rtc_read
+ .text.dec2bcd  0x0000043e       0x14 ./PCF8563.o
+                0x0000043e                dec2bcd
+ .text.rtc_set_date
+                0x00000452       0xa2 ./PCF8563.o
+                0x00000452                rtc_set_date
+ .text.rtc_read_date
+                0x000004f4      0x10a ./PCF8563.o
+                0x000004f4                rtc_read_date
+ .text.rtc_set_clkout
+                0x000005fe       0x34 ./PCF8563.o
+                0x000005fe                rtc_set_clkout
+ .text.rtc_set_default_time
+                0x00000632       0x38 ./PCF8563.o
+                0x00000632                rtc_set_default_time
+ .text.OneStep  0x0000066a       0x64 ./StepperMotor.o
+                0x0000066a                OneStep
+ .text.Stepper  0x000006ce       0x62 ./StepperMotor.o
+                0x000006ce                Stepper
+ .text.Stepper_init
+                0x00000730        0x8 ./StepperMotor.o
+                0x00000730                Stepper_init
+ .text.move_one_compartment
+                0x00000738        0xe ./StepperMotor.o
+                0x00000738                move_one_compartment
+ .text.I2C_init
+                0x00000746       0x12 ./TWI.o
+                0x00000746                I2C_init
+ .text.I2C_start
+                0x00000758       0x26 ./TWI.o
+                0x00000758                I2C_start
+ .text.I2C_stop
+                0x0000077e       0x26 ./TWI.o
+                0x0000077e                I2C_stop
+ .text.I2C_write
+                0x000007a4       0x2a ./TWI.o
+                0x000007a4                I2C_write
+ .text.I2C_read
+                0x000007ce       0x34 ./TWI.o
+                0x000007ce                I2C_read
+ .text.I2C_begin_comm
+                0x00000802       0x1c ./TWI.o
+                0x00000802                I2C_begin_comm
+ .text.__vector_14
+                0x0000081e       0x6a ./hardware_layer.o
+                0x0000081e                __vector_14
+ .text.Reg_init
+                0x00000888       0x34 ./hardware_layer.o
+                0x00000888                Reg_init
+ .text.Debounce
+                0x000008bc       0xde ./hardware_layer.o
+                0x000008bc                Debounce
+ .text.lcd_command
+                0x0000099a       0x56 ./lcd.o
+                0x0000099a                lcd_command
+ .text.lcd_data
+                0x000009f0       0x56 ./lcd.o
+                0x000009f0                lcd_data
+ .text.lcd_goto_xpix_y
+                0x00000a46       0x62 ./lcd.o
+                0x00000a46                lcd_goto_xpix_y
+ .text.lcd_gotoxy
+                0x00000aa8        0xe ./lcd.o
+                0x00000aa8                lcd_gotoxy
+ .text.lcd_home
+                0x00000ab6        0x8 ./lcd.o
+                0x00000ab6                lcd_home
+ .text.lcd_clrscr
+                0x00000abe       0x66 ./lcd.o
+                0x00000abe                lcd_clrscr
+ .text.lcd_init
+                0x00000b24       0x4c ./lcd.o
+                0x00000b24                lcd_init
+ .text.lcd_invert
+                0x00000b70       0x28 ./lcd.o
+                0x00000b70                lcd_invert
+ .text.lcd_sleep
+                0x00000b98       0x28 ./lcd.o
+                0x00000b98                lcd_sleep
+ .text.lcd_set_contrast
+                0x00000bc0       0x24 ./lcd.o
+                0x00000bc0                lcd_set_contrast
+ .text.lcd_putc
+                0x00000be4      0x32e ./lcd.o
+                0x00000be4                lcd_putc
+ .text.lcd_charMode
+                0x00000f12        0x6 ./lcd.o
+                0x00000f12                lcd_charMode
+ .text.lcd_puts
+                0x00000f18       0x18 ./lcd.o
+                0x00000f18                lcd_puts
+ .text.lcd_puts_p
+                0x00000f30       0x1e ./lcd.o
+                0x00000f30                lcd_puts_p
+ .text.lcd_puti
+                0x00000f4e       0x38 ./lcd.o
+                0x00000f4e                lcd_puti
+ .text.lcd_clearline
+                0x00000f86       0x10 ./lcd.o
+                0x00000f86                lcd_clearline
+ .text.startup.main
+                0x00000f96       0xb6 ./main.o
+                0x00000f96                main
+ .text.key_confirm1
+                0x0000104c       0x10 ./pill_dispenser.o
+                0x0000104c                key_confirm1
+ .text.key_confirm2
+                0x0000105c       0x10 ./pill_dispenser.o
+                0x0000105c                key_confirm2
+ .text.key_confirm3
+                0x0000106c       0x10 ./pill_dispenser.o
+                0x0000106c                key_confirm3
+ .text.d_dosesearch
+                0x0000107c       0x68 ./pill_dispenser.o
+                0x0000107c                d_dosesearch
+ .text.d_display_doses
+                0x000010e4      0x128 ./pill_dispenser.o
+                0x000010e4                d_display_doses
+ .text.find_next_dose
+                0x0000120c      0x11e ./pill_dispenser.o
+                0x0000120c                find_next_dose
+ .text.d_find_next_dose
+                0x0000132a       0xc6 ./pill_dispenser.o
+                0x0000132a                d_find_next_dose
+ .text.home_stepper
+                0x000013f0       0xa2 ./pill_dispenser.o
+                0x000013f0                home_stepper
+ .text.watch_dose_times
+                0x00001492       0x56 ./pill_dispenser.o
+                0x00001492                watch_dose_times
+ .text.time_check
+                0x000014e8       0x46 ./pill_dispenser.o
+                0x000014e8                time_check
+ .text.d_define_doses
+                0x0000152e      0x90c ./pill_dispenser.o
+                0x0000152e                d_define_doses
+ .text.d_infill_medicine
+                0x00001e3a      0x166 ./pill_dispenser.o
+                0x00001e3a                d_infill_medicine
+ .text.change_live_time
+                0x00001fa0      0x232 ./pill_dispenser.o
+                0x00001fa0                change_live_time
+ .text.take_dose
+                0x000021d2       0xdc ./pill_dispenser.o
+                0x000021d2                take_dose
+ .text.d_main_home_display
+                0x000022ae      0x292 ./pill_dispenser.o
+                0x000022ae                d_main_home_display
+ .text.servo_init
+                0x00002540       0x1c ./servo9g.o
+                0x00002540                servo_init
+ .text.servo_enable
+                0x0000255c        0x4 ./servo9g.o
+                0x0000255c                servo_enable
+ .text.servo_disable
+                0x00002560        0x4 ./servo9g.o
+                0x00002560                servo_disable
+ .text.servo_set_position
+                0x00002564        0xc ./servo9g.o
+                0x00002564                servo_set_position
+ .text.libgcc.mul
+                0x00002570        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_udivmodqi4.o)
+ .text.libgcc.div
+                0x00002570       0x18 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_udivmodqi4.o)
+                0x00002570                __udivmodqi4
+ .text.libgcc   0x00002588        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_udivmodqi4.o)
+ .text.libgcc.prologue
+                0x00002588        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_udivmodqi4.o)
+ .text.libgcc.builtins
+                0x00002588        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_udivmodqi4.o)
+ .text.libgcc.fmul
+                0x00002588        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_udivmodqi4.o)
+ .text.libgcc.fixed
+                0x00002588        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_udivmodqi4.o)
+ .text.libgcc.mul
+                0x00002588        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.div
+                0x00002588       0x28 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_udivmodhi4.o)
+                0x00002588                __udivmodhi4
+ .text.libgcc   0x000025b0        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.prologue
+                0x000025b0        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.builtins
+                0x000025b0        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fmul
+                0x000025b0        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fixed
+                0x000025b0        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.mul
+                0x000025b0        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_divmodhi4.o)
+ .text.libgcc.div
+                0x000025b0       0x28 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_divmodhi4.o)
+                0x000025b0                _div
+                0x000025b0                __divmodhi4
+ .text.libgcc   0x000025d8        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_divmodhi4.o)
+ .text.libgcc.prologue
+                0x000025d8        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_divmodhi4.o)
+ .text.libgcc.builtins
+                0x000025d8        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_divmodhi4.o)
+ .text.libgcc.fmul
+                0x000025d8        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_divmodhi4.o)
+ .text.libgcc.fixed
+                0x000025d8        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_divmodhi4.o)
+ .text.libgcc.mul
+                0x000025d8        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x000025d8        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x000025d8        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x000025d8        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x000025d8        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x000025d8        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x000025d8        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x000025d8        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x000025d8        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x000025d8        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x000025d8        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x000025d8        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x000025d8        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x000025d8        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x000025d8        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x000025d8        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x000025d8        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x000025d8        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x000025d8        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x000025d8        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x000025d8        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_clear_bss.o)
+ .text.avr-libc
+                0x000025d8       0x16 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(itoa.o)
+                0x000025d8                __itoa
+                0x000025d8                itoa
+ .text.avr-libc
+                0x000025ee       0x16 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(itoa_ncheck.o)
+                0x000025ee                __itoa_ncheck
+ .text.avr-libc
+                0x00002604       0x34 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(utoa_ncheck.o)
+                0x00002604                __utoa_ncheck
+                0x00002606                __utoa_common
+ .text.avr-libc
+                0x00002638       0x20 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(strrev.o)
+                0x00002638                strrev
+                0x00002658                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00002658        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_exit.o)
+                0x00002658                _exit
+                0x00002658                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00002658        0x4 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+                0x0000265c                _etext = .
+
+.data           0x00800100      0x276 load address 0x0000265c
+                0x00800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800100        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm328p.o
+ .data          0x00800100        0x0 ./PCF8563.o
+ .data          0x00800100        0x0 ./StepperMotor.o
+ .data          0x00800100        0x0 ./TWI.o
+ .data          0x00800100        0x0 ./font.o
+ .data          0x00800100        0x0 ./hardware_layer.o
+ .data          0x00800100        0x0 ./lcd.o
+ .data          0x00800100        0x0 ./main.o
+ .data          0x00800100        0x0 ./pill_dispenser.o
+ .data          0x00800100        0x0 ./servo9g.o
+ .data          0x00800100        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_udivmodqi4.o)
+ .data          0x00800100        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_udivmodhi4.o)
+ .data          0x00800100        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_divmodhi4.o)
+ .data          0x00800100        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_exit.o)
+ .data          0x00800100        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_copy_data.o)
+ .data          0x00800100        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_clear_bss.o)
+ .data          0x00800100        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(itoa.o)
+ .data          0x00800100        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(itoa_ncheck.o)
+ .data          0x00800100        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(utoa_ncheck.o)
+ .data          0x00800100        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(strrev.o)
+ *(.data*)
+ .data.charMode
+                0x00800100        0x1 ./lcd.o
+ .data.compartment_number.2113
+                0x00800101        0x1 ./pill_dispenser.o
+ *(.rodata)
+ *(.rodata*)
+ .rodata.str1.1
+                0x00800102       0x16 ./lcd.o
+ .rodata.str1.1
+                0x00800118      0x25e ./pill_dispenser.o
+                                0x276 (size before relaxing)
+ *(.gnu.linkonce.d*)
+                0x00800376                . = ALIGN (0x2)
+                0x00800376                _edata = .
+                0x00800376                PROVIDE (__data_end, .)
+
+.bss            0x00800376       0xd0
+                0x00800376                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x00800376        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5/crtm328p.o
+ .bss           0x00800376        0x0 ./PCF8563.o
+ .bss           0x00800376        0x0 ./StepperMotor.o
+ .bss           0x00800376        0x0 ./TWI.o
+ .bss           0x00800376        0x0 ./font.o
+ .bss           0x00800376        0x0 ./hardware_layer.o
+ .bss           0x00800376        0x0 ./lcd.o
+ .bss           0x00800376        0x0 ./main.o
+ .bss           0x00800376        0x0 ./pill_dispenser.o
+ .bss           0x00800376        0x0 ./servo9g.o
+ .bss           0x00800376        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_udivmodqi4.o)
+ .bss           0x00800376        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_udivmodhi4.o)
+ .bss           0x00800376        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_divmodhi4.o)
+ .bss           0x00800376        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_exit.o)
+ .bss           0x00800376        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_copy_data.o)
+ .bss           0x00800376        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x00800376        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(itoa.o)
+ .bss           0x00800376        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(itoa_ncheck.o)
+ .bss           0x00800376        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(utoa_ncheck.o)
+ .bss           0x00800376        0x0 c:/program files (x86)/atmel/avr tools/avr toolchain/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/avr5\libc.a(strrev.o)
+ *(.bss*)
+ .bss.k.1496    0x00800376        0x1 ./StepperMotor.o
+ .bss.key_state.1506
+                0x00800377        0x1 ./hardware_layer.o
+ .bss.last_key.1507
+                0x00800378        0x1 ./hardware_layer.o
+ .bss.cursorPosition
+                0x00800379        0x2 ./lcd.o
+ .bss.last_menu_pos.2181
+                0x0080037b        0x1 ./pill_dispenser.o
+ .bss.blink.2179
+                0x0080037c        0x1 ./pill_dispenser.o
+ .bss.menu_pos.2180
+                0x0080037d        0x1 ./pill_dispenser.o
+ .bss.display_state.2178
+                0x0080037e        0x1 ./pill_dispenser.o
+ .bss.doses_taken.2159
+                0x0080037f        0x1 ./pill_dispenser.o
+ .bss.take_state.2158
+                0x00800380        0x1 ./pill_dispenser.o
+ .bss.blink.2134
+                0x00800381        0x1 ./pill_dispenser.o
+ .bss.next_state.2132
+                0x00800382        0x1 ./pill_dispenser.o
+ .bss.process_state.2131
+                0x00800383        0x1 ./pill_dispenser.o
+ .bss.boundary_input.2135
+                0x00800384        0x1 ./pill_dispenser.o
+ .bss.input_value.2133
+                0x00800385        0x1 ./pill_dispenser.o
+ .bss.refill_dose.2112
+                0x00800386        0x2 ./pill_dispenser.o
+ .bss.refill_state.2111
+                0x00800388        0x1 ./pill_dispenser.o
+ .bss.watch_state.2096
+                0x00800389        0x1 ./pill_dispenser.o
+ .bss.steps.2084
+                0x0080038a        0x1 ./pill_dispenser.o
+ .bss.homing_state.2083
+                0x0080038b        0x1 ./pill_dispenser.o
+ .bss.display_state.2036
+                0x0080038c        0x1 ./pill_dispenser.o
+ .bss.buffer.1997
+                0x0080038d        0x1 ./pill_dispenser.o
+ .bss.time_minutes_last.2003
+                0x0080038e        0x2 ./pill_dispenser.o
+ .bss.time_minutes_curr.2004
+                0x00800390        0x2 ./pill_dispenser.o
+ .bss.hour_buffer.1998
+                0x00800392        0x1 ./pill_dispenser.o
+ .bss.hour_minute_set.1999
+                0x00800393        0x1 ./pill_dispenser.o
+ .bss.defining_dose_number.2001
+                0x00800394        0x1 ./pill_dispenser.o
+ .bss.day_switch.2000
+                0x00800395        0x1 ./pill_dispenser.o
+ .bss.error_code.2002
+                0x00800396        0x1 ./pill_dispenser.o
+ .bss.input_value.1996
+                0x00800397        0x1 ./pill_dispenser.o
+ .bss.lastp_key.1995
+                0x00800398        0x1 ./pill_dispenser.o
+ .bss.config_state.1994
+                0x00800399        0x1 ./pill_dispenser.o
+ *(COMMON)
+ COMMON         0x0080039a       0x1f ./PCF8563.o
+                0x0080039a                PCF_error
+                0x0080039b                new_time
+                0x008003a5                live_time
+                0x008003af                default_time
+ COMMON         0x008003b9        0xc ./StepperMotor.o
+                0x008003b9                T2
+                0x008003ba                switch_push
+                0x008003bb                T_second
+                0x008003bc                step_pos
+                0x008003be                T3
+                0x008003bf                T1
+                0x008003c0                pushed_key
+                0x008003c1                step_unlock
+                0x008003c2                step_pos_fu
+                0x008003c4                second_flag
+ COMMON         0x008003c5        0x1 ./TWI.o
+                0x008003c5                I2C_ErrorCode
+ COMMON         0x008003c6       0x80 ./main.o
+                0x008003c6                dosage_mode
+                0x008003c7                all_doses
+                0x008003c8                Dose_times
+                0x00800438                its_dosetime_flag
+                0x00800439                latest_minute
+                0x0080043a                day
+                0x0080043b                dose_numb
+                0x00800442                minute_flag
+                0x00800443                next_dose
+                0x00800445                doses_definied
+                0x00800446                PROVIDE (__bss_end, .)
+                0x0000265c                __data_load_start = LOADADDR (.data)
+                0x000028d2                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00800446        0x0
+                0x00800446                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x00800446                PROVIDE (__noinit_end, .)
+                0x00800446                _end = .
+                0x00800446                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x30
+ *(.comment)
+ .comment       0x00000000       0x30 ./PCF8563.o
+                                 0x31 (size before relaxing)
+ .comment       0x00000000       0x31 ./StepperMotor.o
+ .comment       0x00000000       0x31 ./TWI.o
+ .comment       0x00000000       0x31 ./font.o
+ .comment       0x00000000       0x31 ./hardware_layer.o
+ .comment       0x00000000       0x31 ./lcd.o
+ .comment       0x00000000       0x31 ./main.o
+ .comment       0x00000000       0x31 ./pill_dispenser.o
+ .comment       0x00000000       0x31 ./servo9g.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line .debug_line.* .debug_line_end)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(19_Uni_stepper.elf elf32-avr)
+LOAD linker stubs
